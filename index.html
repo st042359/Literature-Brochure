@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LITERATURE BROCHURE</title>
+
+  <link rel="icon" href="./assets/images/logos.png">
+  <!--custom css link-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body id="top">
+
+
+  <!--HEADER-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+      <a href="./index.html" class="logo"></a>
+      <div class="logo">
+        <img src="./assets/images/logos.png">
+        LITERATURE BROCHURE
+      </div>
+      </a>
+
+      <div class="header-actions">
+
+
+      </div>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="reorder-two"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+
+          <button class="menu-close-btn" data-menu-close-btn>
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <ul class="navbar-list">
+          <li>
+            <a href="./index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+
+            <div class="dropdown navbar-link">
+              <a href="#genres-section">
+                <button class="dropbtn">GENRES
+
+                  <i class="fa fa-caret-down"></i>
+                </button>
+              </a>
+              <div class="dropdown-content">
+                <a href="#novels">Novels</a>
+                <a href="#shortStories">Short Stories</a>
+                <a href="#poetry">Poetry</a>
+                <a href="#dramas">Dramas</a>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+  <main>
+    <article>
+
+      <section class="hero">
+        <div class="slideshow-container">
+          <div class="slide fade">
+            <img src="./assets/images/cover2.png" alt="Slide 1">
+          </div>
+
+          <div class="slide fade">
+            <img src="./assets/images/cover1.png" alt="Slide 2">
+          </div>
+
+          <!-- Navigation buttons -->
+          <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+          <a class="next" onclick="changeSlide(1)">&#10095;</a>
+        </div>
+      </section>
+
+      <!--Novels-->
+
+      <section class="bg-books" id="novels">
+        <div class="container">
+          <div class="flex-wrapper">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">Novels</h2>
+            </div>
+          </div>
+          <ul class="book-list">
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/The kite runner.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The Kite Runner</h3>
+                    <h5>Author: Khaled Hosseini</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/the gods of small things.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The God of Small Things </h3>
+                    <h5>Author: Arundhati Roy</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/Emma.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Emma</h3>
+                    <h5>Author: Jane Austen</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/funnay boy.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Funny Boy</h3>
+                    <h5>Author: Shyam Selvadurai</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/elephant pass.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The Road From Elephant Pass</h3>
+                    <h5>Author: Nihal De Silva</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!--Short Stories-->
+      <section class="bg-books" id="shortStories">
+        <div class="container">
+          <div class="flex-wrapper">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">Short Stories</h2>
+            </div>
+          </div>
+          <ul class="book-list">
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/the night.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Night of the living rez</h3>
+                    <h5>Author: Morgan Talty</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/alice munro.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Runaway Stories</h3>
+                    <h5>Author: Alice Munro</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/thumpa.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Interpreter of Maladies</h3>
+                    <h5>Author: Thumpa Lahiri</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/james.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Dubliners</h3>
+                    <h5>Author: James Joyce</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/nothing.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Short Stories about Nothing in Particular</h3>
+                    <h5>Author: James Joyce</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/curtis.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">You think it, I'll say</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--poetry-->
+
+      <section class="bg-books" id="poetry">
+        <div class="container">
+          <div class="flex-wrapper">
+            <div class="title-wrapper">
+              <h2 class="h2 section-title">Poetry</h2>
+            </div>
+          </div>
+          <ul class="book-list">
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/minor.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Minor Bird</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/table.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Feast</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/mr mirror.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Mirror</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/the road not taken.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The road not taken</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/the tiger.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The Tiger</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/scrutinizing.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Far cry from Africa</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--dramas-->
+
+      <section class="bg-books" id="dramas">
+        <div class="container">
+
+          <div class="flex-wrapper">
+
+            <div class="title-wrapper">
+
+              <h2 class="h2 section-title">Dramas</h2>
+            </div>
+
+          </div>
+
+          <ul class="book-list">
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/othello.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Othellow</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/the house.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The house of Bernarda Alba</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/dump.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">The Dump waiter</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/romeo.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Romeo Juliet</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/hamlet.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Hamlet</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="book-cover">
+                <a href="./the-kite-runner.html">
+                  <figure class="card-banner">
+                    <img src="./assets/images/macbeth.jpg">
+                  </figure>
+                </a>
+                <div class="title-wrapper">
+                  <a href="./the-kite-runner.html">
+                    <h3 class="card-title">Macbeth</h3>
+                    <h5>Author: Curtis Sittenfeld</h5>
+
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+
+    </article>
+  </main>
+
+
+
+
+
+  <!--FOOTER-->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand-wrapper">
+
+          <a href="./index.html" class="logo">
+            <div class="logo">
+              <img src="./assets/images/logos.png">
+              LITERATURE BROCHURE
+            </div>
+          </a>
+
+        </div>
+
+
+        <div class="quicklink-wrapper">
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+  <!--go to top-->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+  <!-- custom js link-->
+  <script src="js/script.js"></script>
+
+
+
+</body>
+
+</html>
